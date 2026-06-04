@@ -30,13 +30,13 @@ public class lav2try2 {
         if (colors == 0 && v == 0 || v < 2) {
             System.out.println(4);
             System.out.println(2);
-            System.out.println(3); // lägg till en tredje skådespelare
+            System.out.println(3);
             System.out.println("1 1");
             System.out.println("1 2");
-            System.out.println("1 3"); // roll 3: aktör 3
-            System.out.println("1 3"); // roll 4: aktör 3
-            System.out.println("2 1 3"); // aktör 1 och aktör 3 → OK
-            System.out.println("2 2 4"); // aktör 2 och aktör 3 → OK
+            System.out.println("1 3");
+            System.out.println("1 3");
+            System.out.println("2 1 3");
+            System.out.println("2 2 4");
             return;
         }
         int roles = v + 2;
